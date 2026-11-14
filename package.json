@@ -1,0 +1,42 @@
+{
+  "name": "g923-ipad-bridge-compatibility-tester",
+  "version": "1.0.0",
+  "description": "Investigates whether a Logitech G923 (PlayStation edition) wheel can communicate with an iPad Pro via browser USB/HID/Gamepad APIs. No backend.",
+  "scripts": {
+    "dev": "vite --host",
+    "dev:https": "vite --host --mode https",
+    "build": "tsc -p tsconfig.json --noEmit && vite build",
+    "preview": "vite preview --host",
+    "preview:https": "vite preview --host --mode https",
+    "test": "vitest run",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmedps520-svg/G923-iPad-Bridge-Compatibility-Tester.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/ahmedps520-svg/G923-iPad-Bridge-Compatibility-Tester/issues"
+  },
+  "homepage": "https://github.com/ahmedps520-svg/G923-iPad-Bridge-Compatibility-Tester#readme",
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/w3c-web-hid": "^1.0.7",
+    "@types/w3c-web-usb": "^1.0.14",
+    "@vitejs/plugin-basic-ssl": "^2.3.0",
+    "@vitejs/plugin-react": "^6.3.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.0"
+  },
+  "private": true,
+  "type": "module"
+}
